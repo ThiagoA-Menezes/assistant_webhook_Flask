@@ -128,7 +128,10 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+ibmcloud.env
 .env
+*.env
+*.env.*
 .venv
 env/
 venv/
@@ -172,3 +175,14 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Docker
+*.log
+*.pid
+*.bak
+*.swp
+docker-compose.override.yml
+.docker/
+
+.vscode/
+*.code-workspace
