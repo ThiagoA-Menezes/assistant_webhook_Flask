@@ -16,3 +16,4 @@ ibmcloud ce application create --name assistant-webhook \
   --image us.icr.io/tnm-assistant-webhook/assistant-webhook:latest \
   --cpu 0.5 --memory 512Mi --port 8080 \
   --env-from-secret ./ibmcloud.env
+
