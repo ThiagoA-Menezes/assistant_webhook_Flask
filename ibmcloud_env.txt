@@ -17,4 +17,4 @@ export COS_SERVICE_CRN=<Insert your COS SERVICE CRN HERE>
 export COS_BUCKET_NAME=<Insert your BUCKET NAME AS SRTING HERE>
 
 # WebHook Secret
-export WEBHOOK_SECRET =<INsert your WEbhook Secret here>
+export WEBHOOK_SECRET =<Insert your WEbhook Secret here>
